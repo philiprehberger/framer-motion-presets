@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/framer-motion-presets",
+  "name": "@philiprehberger/ts-framer-motion-presets",
   "version": "0.2.0",
   "description": "Reusable Framer Motion animation presets, variants, and transitions",
   "main": "./dist/index.js",
@@ -45,9 +45,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/framer-motion-presets.git"
+    "url": "git+https://github.com/philiprehberger/ts-framer-motion-presets.git"
   },
-  "homepage": "https://github.com/philiprehberger/framer-motion-presets#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/framer-motion-presets/issues" },
+  "homepage": "https://github.com/philiprehberger/ts-framer-motion-presets#readme",
+  "bugs": { "url": "https://github.com/philiprehberger/ts-framer-motion-presets/issues" },
   "engines": { "node": ">=18.0.0" }
 }

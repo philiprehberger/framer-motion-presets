@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2
+
+- Fix npm package name (restore original name without ts- prefix)
+
 ## 0.2.1
 
 - Update repository URLs to new ts-prefixed GitHub repo

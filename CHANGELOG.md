@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+- Fix npm package name references in README
+
 ## 0.2.2
 
 - Fix npm package name (restore original name without ts- prefix)

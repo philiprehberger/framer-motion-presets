@@ -1,17 +1,17 @@
-# @philiprehberger/ts-framer-motion-presets
+# @philiprehberger/framer-motion-presets
 
 Reusable Framer Motion animation presets, variants, and transitions.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-framer-motion-presets framer-motion
+npm install @philiprehberger/framer-motion-presets framer-motion
 ```
 
 ## Usage
 
 ```tsx
-import { fadeInUp, staggerContainer, staggerItem, transitions } from '@philiprehberger/ts-framer-motion-presets';
+import { fadeInUp, staggerContainer, staggerItem, transitions } from '@philiprehberger/framer-motion-presets';
 import { motion } from 'framer-motion';
 
 function AnimatedList({ items }) {
@@ -102,7 +102,7 @@ All have `initial`, `animate`, and optionally `exit` states:
 This package exports `prefersReducedMotion()` which returns `true` when the user has enabled "prefers-reduced-motion" in their OS settings. Use it to conditionally disable animations:
 
 ```tsx
-import { prefersReducedMotion, fadeInUp } from '@philiprehberger/ts-framer-motion-presets';
+import { prefersReducedMotion, fadeInUp } from '@philiprehberger/framer-motion-presets';
 
 <motion.div variants={prefersReducedMotion() ? {} : fadeInUp} />
 ```

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Update repository URLs to new ts-prefixed GitHub repo
+
 ## 0.2.0
 
 - Expand test suite with behavioral tests (29 tests covering all variant types, factories, accessibility)

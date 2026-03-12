@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/ts-framer-motion-presets",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Reusable Framer Motion animation presets, variants, and transitions",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

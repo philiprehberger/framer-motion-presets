@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/framer-motion-presets",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Reusable Framer Motion animation presets, variants, and transitions",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -48,6 +48,10 @@
     "url": "git+https://github.com/philiprehberger/ts-framer-motion-presets.git"
   },
   "homepage": "https://github.com/philiprehberger/ts-framer-motion-presets#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/ts-framer-motion-presets/issues" },
-  "engines": { "node": ">=18.0.0" }
+  "bugs": {
+    "url": "https://github.com/philiprehberger/ts-framer-motion-presets/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

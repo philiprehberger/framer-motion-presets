@@ -1,6 +1,6 @@
 # @philiprehberger/framer-motion-presets
 
-[![CI](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/framer-motion-presets.svg)](https://www.npmjs.com/package/@philiprehberger/framer-motion-presets)
 [![License](https://img.shields.io/github/license/philiprehberger/framer-motion-presets)](LICENSE)
 
@@ -109,6 +109,15 @@ This package exports `prefersReducedMotion()` which returns `true` when the user
 import { prefersReducedMotion, fadeInUp } from '@philiprehberger/framer-motion-presets';
 
 <motion.div variants={prefersReducedMotion() ? {} : fadeInUp} />
+```
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
 ```
 
 ## License

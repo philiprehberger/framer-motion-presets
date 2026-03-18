@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/framer-motion-presets.svg)](https://www.npmjs.com/package/@philiprehberger/framer-motion-presets)
 [![License](https://img.shields.io/github/license/philiprehberger/framer-motion-presets)](LICENSE)
 
-Reusable Framer Motion animation presets, variants, and transitions.
+Reusable Framer Motion animation presets, variants, and transitions
 
 ## Installation
 
@@ -31,19 +31,7 @@ function AnimatedList({ items }) {
 }
 ```
 
-## Features
-
-- Easing functions and transition presets (fast, base, slow, bounce, spring)
-- Fade, scale, and slide variants with enter/exit states
-- Page transition and stagger animations
-- Hover/tap interaction presets
-- Component-specific variants (modal, backdrop, toast, dropdown)
-- Parallax, 3D transforms, and spring physics
-- Scroll-reveal, morphing, and text reveal animations
-- Loading animations (pulse, shimmer, skeleton)
-- `prefersReducedMotion` helper for accessibility
-
-## Available Presets
+## API
 
 ### Transitions & Easing
 

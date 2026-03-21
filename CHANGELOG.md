@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.8
+
+- Standardize README code fences and section structure
+
 ## 0.2.7
 
 - Fix test import path (dist/index.mjs → dist/index.js)

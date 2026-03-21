@@ -14,7 +14,7 @@ npm install @philiprehberger/framer-motion-presets framer-motion
 
 ## Usage
 
-```tsx
+```ts
 import { fadeInUp, staggerContainer, staggerItem, transitions } from '@philiprehberger/framer-motion-presets';
 import { motion } from 'framer-motion';
 
@@ -29,6 +29,16 @@ function AnimatedList({ items }) {
     </motion.ul>
   );
 }
+```
+
+### Reduced Motion
+
+Use `prefersReducedMotion()` to check if the user has enabled "prefers-reduced-motion" in their OS settings:
+
+```ts
+import { prefersReducedMotion, fadeInUp } from '@philiprehberger/framer-motion-presets';
+
+<motion.div variants={prefersReducedMotion() ? {} : fadeInUp} />
 ```
 
 ## API
@@ -88,17 +98,6 @@ All have `initial`, `animate`, and optionally `exit` states:
 | `textReveal` | Text reveal animation |
 | `createCounterAnimation(from, to)` | Animated number counter factory |
 | `pulse` / `shimmer` / `skeleton` | Loading state animations |
-
-## Accessibility
-
-This package exports `prefersReducedMotion()` which returns `true` when the user has enabled "prefers-reduced-motion" in their OS settings. Use it to conditionally disable animations:
-
-```tsx
-import { prefersReducedMotion, fadeInUp } from '@philiprehberger/framer-motion-presets';
-
-<motion.div variants={prefersReducedMotion() ? {} : fadeInUp} />
-```
-
 
 ## Development
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.9
+
+- Fix CI and License badge URLs in README
+
 ## 0.2.8
 
 - Standardize README code fences and section structure

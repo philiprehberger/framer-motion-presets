@@ -1,8 +1,8 @@
 # @philiprehberger/framer-motion-presets
 
-[![CI](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-framer-motion-presets/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-framer-motion-presets/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/framer-motion-presets.svg)](https://www.npmjs.com/package/@philiprehberger/framer-motion-presets)
-[![License](https://img.shields.io/github/license/philiprehberger/framer-motion-presets)](LICENSE)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-framer-motion-presets)](LICENSE)
 
 Reusable Framer Motion animation presets, variants, and transitions
 

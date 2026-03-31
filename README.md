@@ -1,9 +1,8 @@
 # @philiprehberger/framer-motion-presets
 
-[![CI](https://github.com/philiprehberger/ts-framer-motion-presets/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-framer-motion-presets/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/framer-motion-presets/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/framer-motion-presets.svg)](https://www.npmjs.com/package/@philiprehberger/framer-motion-presets)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-framer-motion-presets)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/framer-motion-presets)](https://github.com/philiprehberger/framer-motion-presets/commits/main)
 
 Reusable Framer Motion animation presets, variants, and transitions
 
@@ -108,6 +107,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/framer-motion-presets)
+
+🐛 [Report issues](https://github.com/philiprehberger/framer-motion-presets/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/framer-motion-presets/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)

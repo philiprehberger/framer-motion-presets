@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.11
+
+- Fix README GitHub URLs to use correct repo name (ts-framer-motion-presets)
+
 ## 0.2.10
 
 - Standardize README to 3-badge format with emoji Support section
